@@ -1,0 +1,43 @@
+.get-friends {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.get-inside-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.card-item {
+  display: flex;
+  max-width: 300px;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.502);
+}
+
+.bx-group, .bx-message-square-dots, .bxs-book-alt{
+  margin-right: 10px;
+  font-size: 35px;
+}
+
+.bx-group {
+  color: rgb(160, 71, 49);
+}
+
+.bx-message-square-dots {
+  color: rgb(46, 154, 82);
+}
+
+.bxs-book-alt {
+  color: yellow;
+}

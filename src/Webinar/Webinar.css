@@ -1,0 +1,120 @@
+
+.webinar {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.web-header {
+  text-align: center;
+}
+
+.web-header > h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.web-header p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.502);
+  margin-bottom: 150px;
+}
+
+.webinar-flex {
+  display: flex;
+  margin-bottom: 30px;
+  transform-style: preserve-3d;
+}
+
+.webcard {
+  width: 400px;
+  height: 250px;
+  perspective: 500px;
+}
+
+.webc1 {
+  transform: rotateY(10deg);
+  width: 100%;
+  height: 250px;
+}
+
+.webc2 {
+  width: 100%;
+  height: 250px;
+}
+
+.webc3 {
+  transform: rotateY(-10deg);
+  width: 100%;
+  height: 250px;
+}
+
+.web-big {
+  transform: scale(1.4);
+  z-index: 111;
+}
+
+.web-card-main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.web-card-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.play {
+  position: absolute;
+  z-index: 222;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.502);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.play > i {
+  font-size: 25px;
+  transition: all .4s ease;
+}
+
+.play:hover i{
+  transform: scale(1.1);
+}
+
+.see-more-div {
+  padding-top: 50px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  transition: all .4s ease;
+}
+
+.see-more-div button {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.see-more-div i {
+  font-size: 16px;
+  color: #fff;
+}
+
